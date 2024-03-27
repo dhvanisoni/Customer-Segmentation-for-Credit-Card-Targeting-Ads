@@ -60,4 +60,7 @@ TENURE: Tenure of credit card service for user
 * Implemented to learn compressed representations of input data.
 * Enhanced clustering accuracy.
 
+### Dependencies
+Python/
+Libraries: pandas, numpy, matplotlib, seaborn,sickit-learn, 
  
