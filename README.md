@@ -2,7 +2,7 @@
 
 
 ### Overview
-Dataset for bank in New York city. The bank has extensive data on their customers for the past 6 months. The marketing team wants to launch a targeted ad marketing campaign by dividing their customers at least 3 distinctive groups. Sample Dataset summarizes the usage behaviour of about 9000 active credit card holders during the last 6 months. The file is at a customer level with 18 behavioural variables.
+Dataset for bank in New York city. The bank has extensive data on their customers for the past 6 months. The marketing team wants to launch a targeted ad marketing campaign by dividing their customers at least 4 distinctive groups. Sample Dataset summarizes the usage behaviour of about 9000 active credit card holders during the last 6 months. The file is at a customer level with 18 behavioural variables.
 
 ### Following is the Data Dictionary for Credit Card dataset:
 CUST_ID: Identification of Credit Card holder (Categorical)\
@@ -52,7 +52,7 @@ TENURE: Tenure of credit card service for user
 
 **Principal Component Analysis (PCA):**
 
-* Reduced dimensionality of the dataset.
+* To reduced dimensionality of the dataset.
 * Identified important features for clustering.
 
 **Autoencoders:**
@@ -61,6 +61,15 @@ TENURE: Tenure of credit card service for user
 * Enhanced clustering accuracy.
 
 ### Dependencies
-Python/
-Libraries: pandas, numpy, matplotlib, seaborn,sickit-learn, 
+Python \
+Libraries: pandas, numpy, matplotlib, seaborn,sickit-learn, Keras, Tensorflow
+
+### Result
+
+Identified four distinct customer segments based on credit card usage behavior. Each segment represents a unique group with specific characteristics.
+1. First Customers cluster (Transactors): Those are customers who pay least amount of intrerest charges and careful with their money, Cluster with lowest balance  and cash advance, Percentage of full payment = 23%
+2. Second customers cluster  (who use credit card as a loan ): highest balance ($5000) and cash advance (~$5000), low purchase frequency, high cash advance frequency (0.5), high cash advance transactions (16) and low percentage of full payment (3%)
+3. Third customer cluster (VIP/Prime): high credit limit $16K and highest percentage of full payment, target for increase credit limit and increase spending habits
+4. Fourth customer cluster (low tenure): these are customers with low tenure (7 years), low balance
+
  
