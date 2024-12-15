@@ -2,7 +2,7 @@
 
 
 ### Overview
-Dataset for bank in New York city. The bank has extensive data on their customers for the past 6 months. The marketing team wants to launch a targeted ad marketing campaign by dividing their customers at least 4 distinctive groups. Sample Dataset summarizes the usage behaviour of about 9000 active credit card holders during the last 6 months. The file is at a customer level with 18 behavioural variables.
+Dataset is for bank in New York city. The bank has extensive data on their customers for the past 6 months. The marketing team wants to launch a targeted ad marketing campaign by dividing their customers at least 4 distinctive groups. Sample Dataset summarizes the usage behaviour of about 9000 active credit card holders during the last 6 months. The file is at a customer level with 18 behavioural variables.
 
 ### Following is the Data Dictionary for Credit Card dataset:
 CUST_ID: Identification of Credit Card holder (Categorical)\
